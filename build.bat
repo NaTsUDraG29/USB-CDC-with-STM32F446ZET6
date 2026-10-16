@@ -1,0 +1,4 @@
+@echo off
+set MAKE="C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.2.0.202409170845\tools\bin\make.exe"
+if not exist build mkdir build
+%MAKE% %*
